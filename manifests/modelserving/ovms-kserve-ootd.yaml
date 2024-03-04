@@ -48,6 +48,7 @@ objects:
       args:
       - '--model_name={{.Name}}'
       - '--port=8001'
+      - '--enable_metrics'
       - '--rest_port=8888'
       - '--model_path=/mnt/models'
       - '--file_system_poll_wait_seconds=0'
